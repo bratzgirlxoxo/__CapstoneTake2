@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 0f24764fbd032444f90149147dcd892e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: MainStructure
+    100002: //RootNode
+    100004: Support1
+    100006: Support2
+    100008: Support3
+    100010: Support4
+    100012: Support5
+    100014: Switch1
+    100016: Switch10
+    100018: Switch11
+    100020: Switch12
+    100022: Switch2
+    100024: Switch3
+    100026: Switch4
+    100028: Switch5
+    100030: Switch6
+    100032: Switch7
+    100034: Switch8
+    100036: Switch9
+    400000: MainStructure
+    400002: //RootNode
+    400004: Support1
+    400006: Support2
+    400008: Support3
+    400010: Support4
+    400012: Support5
+    400014: Switch1
+    400016: Switch10
+    400018: Switch11
+    400020: Switch12
+    400022: Switch2
+    400024: Switch3
+    400026: Switch4
+    400028: Switch5
+    400030: Switch6
+    400032: Switch7
+    400034: Switch8
+    400036: Switch9
+    2100000: lambert1
+    2300000: MainStructure
+    2300002: Support1
+    2300004: Support2
+    2300006: Support3
+    2300008: Support4
+    2300010: Support5
+    2300012: Switch1
+    2300014: Switch10
+    2300016: Switch11
+    2300018: Switch12
+    2300020: Switch2
+    2300022: Switch3
+    2300024: Switch4
+    2300026: Switch5
+    2300028: Switch6
+    2300030: Switch7
+    2300032: Switch8
+    2300034: Switch9
+    3300000: MainStructure
+    3300002: Support1
+    3300004: Support2
+    3300006: Support3
+    3300008: Support4
+    3300010: Support5
+    3300012: Switch1
+    3300014: Switch10
+    3300016: Switch11
+    3300018: Switch12
+    3300020: Switch2
+    3300022: Switch3
+    3300024: Switch4
+    3300026: Switch5
+    3300028: Switch6
+    3300030: Switch7
+    3300032: Switch8
+    3300034: Switch9
+    4300000: MainStructure
+    4300002: Support1
+    4300004: Support2
+    4300006: Support3
+    4300008: Support4
+    4300010: Support5
+    4300012: Switch1
+    4300014: Switch2
+    4300016: Switch3
+    4300018: Switch4
+    4300020: Switch5
+    4300022: Switch6
+    4300024: Switch7
+    4300026: Switch8
+    4300028: Switch9
+    4300030: Switch10
+    4300032: Switch11
+    4300034: Switch12
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
