@@ -49,6 +49,7 @@ ModelImporter:
     100086: pCube48
     100088: pCube49
     100090: pCube50
+    100092: pCube51
     400000: //RootNode
     400002: pCube10
     400004: pCube11
@@ -95,6 +96,7 @@ ModelImporter:
     400086: pCube48
     400088: pCube49
     400090: pCube50
+    400092: pCube51
     2100000: lambert1
     2300000: pCube10
     2300002: pCube11
@@ -141,6 +143,7 @@ ModelImporter:
     2300084: pCube48
     2300086: pCube49
     2300088: pCube50
+    2300090: pCube51
     3300000: pCube10
     3300002: pCube11
     3300004: pCube12
@@ -186,6 +189,7 @@ ModelImporter:
     3300084: pCube48
     3300086: pCube49
     3300088: pCube50
+    3300090: pCube51
     4300000: pCube2
     4300002: pCube5
     4300004: pCube6
@@ -231,6 +235,7 @@ ModelImporter:
     4300084: pCube48
     4300086: pCube49
     4300088: pCube50
+    4300090: pCube51
   externalObjects: {}
   materials:
     importMaterials: 1
