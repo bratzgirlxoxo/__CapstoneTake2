@@ -1,24 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class FloorElement : MonoBehaviour
+namespace Patrick_Scripts
 {
-    public AudioSource source;
-
-    private void Start()
+    public class FloorElement : MonoBehaviour
     {
-        source = GetComponent<AudioSource>();
-    }
+        public AudioSource source;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        private void Start()
         {
-            
+            source = GetComponent<AudioSource>();
         }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+            
+            }
         
-        source.Play();
-        Debug.Log("stepped");
+            source.Play();
+            Debug.Log("stepped");
+        }
     }
 }
