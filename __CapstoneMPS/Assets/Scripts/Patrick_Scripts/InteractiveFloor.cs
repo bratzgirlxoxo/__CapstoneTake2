@@ -1,39 +1,38 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-namespace Patrick_Scripts
+public class InteractiveFloor : MonoBehaviour
 {
-    public class InteractiveFloor : MonoBehaviour
-    {
-        public GameObject musicChip;
-        public AudioClip[] inheritedElements;
-        public Component[] sources;
-        private AudioClip currentClip;
+    public GameObject musicChip;
+    public AudioClip[] inheritedElements;
+    public Component[] sources;
+    private AudioClip currentClip;
 
-        private bool loaded;
+    private bool loaded;
     
-        void Start()
-        {
-            musicChip = GameObject.FindGameObjectWithTag("MusicChip");
-            sources = GetComponentsInChildren<AudioSource>();
-            inheritedElements = musicChip.GetComponent<MusicChip>()
-                .elements;
+    void Start()
+    {
+        musicChip = GameObject.FindGameObjectWithTag("MusicChip");
+        sources = GetComponentsInChildren<AudioSource>();
+        inheritedElements = musicChip.GetComponent<MusicChip>()
+            .elements;
 
-            loaded = false;
-        }
+        loaded = false;
+    }
 
-        // Update is called once per frame
-        void Update()
+    // Update is called once per frame
+    void Update()
+    {
+        if (!loaded)
         {
-            if (!loaded)
+            foreach (AudioSource source in sources)
             {
-                foreach (AudioSource source in sources)
-                {
-                    currentClip = inheritedElements[Random.Range(0, inheritedElements.Length)];
-                    source.clip = currentClip;
-                    loaded = true;
-                }
+                currentClip = inheritedElements[Random.Range(0, inheritedElements.Length)];
+                source.clip = currentClip;
+                loaded = true;
             }
-        
         }
+        
     }
 }
