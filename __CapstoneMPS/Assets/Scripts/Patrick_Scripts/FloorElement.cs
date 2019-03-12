@@ -2,9 +2,14 @@
 
 namespace Patrick_Scripts
 {
+    [RequireComponent(typeof(AudioSource))]
     public class FloorElement : MonoBehaviour
     {
         public AudioSource source;
+
+        public ParticleSystem particleLights;
+
+        public Totem1 firstTotem;
 
         private void Start()
         {
@@ -13,11 +18,18 @@ namespace Patrick_Scripts
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
-            {
+
+            firstTotem.risingTile = transform.gameObject;
             
+            if (particleLights.isPlaying)
+            {
+                particleLights.Stop();
             }
-        
+            else
+            {
+                particleLights.Play();
+            }
+            
             source.Play();
             Debug.Log("stepped");
         }
