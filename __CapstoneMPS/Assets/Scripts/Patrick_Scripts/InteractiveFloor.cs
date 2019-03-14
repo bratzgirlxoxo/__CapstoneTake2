@@ -13,7 +13,6 @@ namespace Patrick_Scripts
     
         void Start()
         {
-            //musicChip = GameObject.FindGameObjectWithTag("MusicChip");
             sources = GetComponentsInChildren<AudioSource>();
             inheritedElements = musicChip.GetComponent<MusicChip>()
                 .elements;
