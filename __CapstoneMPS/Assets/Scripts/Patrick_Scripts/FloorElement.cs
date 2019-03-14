@@ -19,7 +19,7 @@ namespace Patrick_Scripts
         private void OnTriggerEnter(Collider other)
         {
 
-            firstTotem.risingTile = transform.gameObject;
+            //firstTotem.risingTile = transform.gameObject;
             
             if (particleLights.isPlaying)
             {
